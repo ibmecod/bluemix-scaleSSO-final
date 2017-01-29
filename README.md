@@ -1,8 +1,9 @@
-#Basic Single Sign On Example
+#Scalable Single Sign On Example code
 
-This source code provides the starting point for learning how to add the Single Sign On service for IBM Bluemix to an application.
+This source code shows a working example of a scalable app using the Single Sign On service for IBM Bluemix.
 
-Follow along in this article: http://www.ibm.com/developerworks/library/wa-scale-sso-for-node-apps-trs-bluemix to see how to take into a working application using the Single Sign On service for Bluemix
+This app uses redis and connect-redis to persist express-session session data. Building this application is described in the article:
+http://www.ibm.com/developerworks/library/wa-scale-sso-for-node-apps-trs-bluemix
 
 To learn more about the IBM Single Sign On service, see the online documentation: https://console.ng.bluemix.net/docs/services/SingleSignOn/index.html#sso_gettingstarted
 
